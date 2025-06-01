@@ -15,16 +15,15 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
-  background-color: var(--bg);
-  color: var(--text);
+  background-color: #f2f5ff;
+  color: #1b1b2f;
   line-height: 1.5;
-  background-image: url("gator-bg.png");
-  background-size: cover;
-  background-position: center;
+  background-image: url("gator-bg.png");  /* Replace with your exact filename */
+  background-size: contain;              /* shows the whole Gator */
+  background-repeat: no-repeat;
+  background-position: top center;
   background-attachment: fixed;
-  backdrop-filter: blur(2px);
 }
-
 
 /* Hero */
 header {
